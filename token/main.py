@@ -5,4 +5,4 @@ from routes import setup_routes
 app = web.Application()
 app['config'] = config
 setup_routes(app)
-web.run_app(app, port=8083)
+web.run_app(app)
